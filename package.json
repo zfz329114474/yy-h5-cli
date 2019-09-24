@@ -1,0 +1,31 @@
+{
+  "name": "yy-h5-cli",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src -d dist",
+    "build": "webpack"
+  },
+  "bin": {
+    "yyH5": "./src/index.js"
+  },
+  "author": "zhangfz",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^7.0.0",
+    "ora": "^3.4.0",
+    "shelljs": "^0.8.3"
+
+  }
+}
